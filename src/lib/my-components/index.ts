@@ -1,0 +1,1 @@
+export { default as Navbar } from '$lib/my-components/navbar.svelte';
