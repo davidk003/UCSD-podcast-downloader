@@ -11,9 +11,6 @@ importers:
       '@number-flow/svelte':
         specifier: ^0.3.6
         version: 0.3.6(svelte@5.25.6)
-      lucide-svelte:
-        specifier: ^0.487.0
-        version: 0.487.0(svelte@5.25.6)
       mode-watcher:
         specifier: ^0.5.1
         version: 0.5.1(svelte@5.25.6)
@@ -54,6 +51,9 @@ importers:
       globals:
         specifier: ^16.0.0
         version: 16.0.0
+      lucide-svelte:
+        specifier: ^0.487.0
+        version: 0.487.0(svelte@5.25.6)
       prettier:
         specifier: ^3.4.2
         version: 3.5.3
