@@ -41,14 +41,14 @@
 
 <h2 class="text-2xl font-semibold text-center m-5">Frequently Asked Questions</h2>
    
-  <Accordion.Root class="mx-auto w-full max-w-4xl">
+  <Accordion.Root class="max-w-4xl m-auto">
   {#each accordionContent as item}
-    <Accordion.Item value={item.q} class="border-b">
-      <Accordion.Trigger class="flex w-full items-center justify-between py-3 text-left font-medium text-gray-900 dark:text-gray-100">
-        {item.q}
+    <Accordion.Item value={item.q} class="border-b md:mx-10 mx-12">
+      <Accordion.Trigger class="flex  justify-between py-3 text-left font-medium text-gray-900 dark:text-gray-100">
+        <p>{item.q}</p>
       </Accordion.Trigger>
-      <Accordion.Content class="text-md text-gray-700 dark:text-gray-400">
-        <pre>{item.a}</pre>
+      <Accordion.Content class="text-md text-gray-700 dark:text-gray-400 text-pretty">
+        <p>{item.a}</p>
       </Accordion.Content>
     </Accordion.Item>
   {/each}
